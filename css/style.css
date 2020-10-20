@@ -149,3 +149,13 @@ body {
 .logo-linkedin:hover {
     color: #007bb5
 }
+    
+    
+
+ul li a:hover:nth-child(3) {
+  color: #c32aa3;
+}
+ul li a:hover:nth-child(4) {
+  color: #dd4b39;
+}
+
