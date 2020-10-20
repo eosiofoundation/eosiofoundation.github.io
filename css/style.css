@@ -72,16 +72,8 @@ body {
         
     } 
     
-    @keyframes monitorIn {
-    from {
-        transform: translateY(-30px);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
+  
+
     
     p.subtitle {
     font-size: 1.4em;
@@ -115,7 +107,16 @@ body {
 @-ms-keyframes pulse {to {box-shadow: 0 0 0 20px rgba(9, 187, 233, 0);}}
 @keyframes pulse {to {box-shadow: 0 0 0 20px rgba(9, 187, 233, 0);}}
 
-    
+     @keyframes monitorIn {
+    from {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    } 
     
 .social-media-list {
     list-style: none;
