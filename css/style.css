@@ -13,8 +13,7 @@ html {
 }
 
 body {
-    background: #f4f4f4 url("../assets/candlebg.svg");
-    background-size: cover;
+      background-size: cover;
 }
 
 #home-container {
